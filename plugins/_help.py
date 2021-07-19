@@ -34,12 +34,12 @@ async def _help(ult):
                     for d in LIST[plug]:
                         x += HNDLR + d
                         x += "\n"
-                    x += "\n© @TeamUltroid"
+                    x += "\n© @loneghoul"
                     await eor(ult, x)
                 except BaseException:
                     await eod(ult, get_string("help_1").format(plug), time=5)
         except BaseException:
-            await eor(ult, "Error 🤔 occured.")
+            await eor(ult, "Error...")
     else:
         tgbot = asst.me.username
         try:
